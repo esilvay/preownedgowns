@@ -1,0 +1,1832 @@
+/* CSS Document */
+
+* {
+	margin:0; padding:0;
+}
+
+
+#conash3D0 {
+	height:0px; top:-1px;
+}
+
+body{
+	background: #eeeeee url(../../images/top_border.png) repeat-x top left;	
+}
+
+html{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color:#5d5d5d;
+	line-height: 18px;
+}
+
+#main {
+	margin:0 auto;
+}
+
+a{
+	color: #5d5d5d;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #5fc9ec;	
+}
+
+#top-holder{
+	width:1004px;
+	height: 135px;
+	padding-top: 34px;
+}
+
+#search{
+	background: url(../../images/search_bg.png) top left no-repeat;
+	width: 350px;
+	height: 34px;
+	float: left;
+}
+
+#logo{
+	background: url(../../images/preownedgowns_logo.png) no-repeat top left;
+	width: 430px;
+	height: 77px;
+	float: left;
+	margin-right: 190px;
+}
+
+.clear{
+	clear: both;	
+}
+
+#main-img{
+	background: url(/images/main-img.png) no-repeat top left;
+	width: 889px;
+	height: 268px;
+}
+
+#main-text{
+	width: 595px;
+	height: 250px;
+	padding: 20px;
+}
+
+#main-heading{
+	margin-bottom: 10px;	
+}
+
+#main-heading p{
+	font-size: 25px;
+	font-weight: bold;
+	color:#5FC9EC;
+	font-family:Georgia;
+}
+
+#navigation{ width: 1004px; height: 45px; margin-bottom: -15px;}
+/*#navigation .padding {padding:9px 0;}*/
+#navigation li {float:left; width:190px; height: 36px; font-size:20px; text-align:center;  display:block;}
+#navigation li a {color:#5fc9ec; text-decoration:none; font-family:Georgia; font-weight:bold; font-size:18px; display:block; padding: 10px 0 0 0px;}
+#navigation li a:hover {color:#5d5d5d; text-decoration:underline;}
+#navigation .last {background: url(../../images/sign_up_today.png) no-repeat bottom center;}
+#navigation .last a{color:#fff; text-decoration:none; font-family:Georgia; font-weight:bold; font-size:18px; display:block; padding: 10px 0 0 0px;}
+
+
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~SEARCH BOX~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+#site-search #search-box{
+	width: 240px;
+	height: 25px;
+}
+
+#site-search #submit{
+	background: url(../../images/search_btn.png) bottom right no-repeat transparent;
+	border: none;
+	cursor: pointer;
+	width: 48px;
+	height: 34px;
+	*margin-left: 1px;
+}
+
+#site-search select{
+	border: none;
+	width: 108px;
+	height: 16px;
+}
+
+#site-search input {
+	width:260px; 
+	height:20px;
+	border: 1px solid #fff;
+	margin-left: 5px;
+	*margin-top: -3px;
+	font-size:12px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #5D5D5D;
+}
+
+#main_body{
+	width: 1004px;
+	height: auto;
+	background: #fff;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	padding: 20px 0px;
+}
+
+#main_body-ad{
+	width: 400px;
+	height: auto;
+	background: #fff;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	margin: auto;
+}
+
+.spacer{
+	width: 100%;
+	height: 15px;
+}
+
+.v-spacer{
+	width: 20px;
+	height: 273px;
+	float: left;
+}
+
+.v-spacer{
+	width: 1004px;
+	height: 15px;
+}
+
+#img_scroller{
+	width: 889px;
+	padding: 5px 55px;
+}
+
+#img_scroller-f{
+	width: 889px;
+	padding: 5px 55px;
+}
+
+
+#img_scroller-access{
+	padding: 5px 55px;
+}
+
+#left-column{
+	width: 250px;
+	height: auto;
+	padding-left: 55px;
+	float: left;
+	padding-bottom: 25px;
+}
+
+#left-column-r{
+	width: 350px;
+	height: auto;
+	padding-left: 55px;
+	float: left;
+	padding-bottom: 25px;
+}
+
+#left-column-ad{
+	width: 363px;
+	height: auto;
+	margin: auto;
+}
+
+#left-column-s{
+	width: 894px;
+	height: auto;
+	padding-left: 55px;
+	float: left;
+	padding-bottom: 10px;
+}
+
+#left-column-m{
+	width: 200px;
+	height: auto;
+	padding-left: 55px;
+	float: left;
+	padding-bottom: 25px;
+}
+
+#left-column-gr{
+	width: 250px;
+	height: auto;
+	margin-left: 55px;
+	float: left;
+	margin-bottom: 25px;
+}
+
+
+#buy-a-dress{
+	background: url(../../images/callout_frame.png) top left no-repeat;
+	width:207px;
+	height: 141px;
+}
+
+#sell-a-dress{
+	background: url(../../images/callout_frame.png) top left no-repeat;
+	width:207px;
+	height: 141px;
+}
+
+.inner{
+	padding:10px;	
+}
+
+.inner p{
+	font-size: 14px;	
+}
+
+.inner span{
+	font-size: 24px;
+	font-weight: bold;
+	color:#5fc9ec;
+	font-family:Georgia;
+}
+
+#right-column{
+	width: 600px;
+	height: auto;
+	padding-left: 35px;
+	padding-top: 5px;
+	float: left;
+}
+
+#right-column-r{
+	width: 500px;
+	height: auto;
+	padding-left: 55px;
+	float: left;
+}
+
+#right-column-m{
+	width: 600px;
+	height: auto;
+	padding-left: 85px;
+	float: left;
+}
+
+#right-column-m1{
+	width: 600px;
+	height: auto;
+	padding-left: 85px;
+	float: left;
+}
+
+#right-column-bl{
+	width: 632px;
+	height: auto;
+	padding-left: 85px;
+	float: left;
+}
+
+#right-column-gr{
+	width: 582px;
+	height: auto;
+	padding-right: 44px;
+	float: right;
+}
+
+#right-heading-m{
+	background: #5fc9ec;
+	width: 600px;
+	float: right;
+	padding: 8px;
+	margin-bottom: 10px;
+}
+
+#right-heading-m p{
+	font-size: 18px;
+	font-weight: bold;
+	color:#fff;
+	font-family:Georgia;
+}
+
+#left-heading-r{
+	background: #5fc9ec;
+	width: 350px;
+	float: right;
+	padding: 8px;
+	margin-bottom: 10px;
+}
+
+.left-heading-s{
+	background: #5fc9ec;
+	width: 894px;
+	float: right;
+	padding: 8px;
+	margin-bottom: 10px;
+}
+
+.left-heading-gl{
+	background: #5fc9ec;
+	width: 894px;
+	float: right;
+	padding: 8px;
+	margin-bottom: 10px;
+}
+
+.left-heading-gl p{
+	font-size: 18px;
+	font-weight: bold;
+	color:#fff;
+	font-family:Georgia;
+}
+
+.left-heading-m{
+	background: #5fc9ec;
+	width: 200px;
+	padding: 8px;
+	margin-bottom: 10px;
+}
+
+.right-heading-m{
+	background: #5fc9ec;
+	width: 400px;
+	padding: 8px;
+	margin-bottom: 10px;
+}
+
+#left-heading-r p{
+	font-size: 18px;
+	font-weight: bold;
+	color:#fff;
+	font-family:Georgia;
+}
+
+.right-heading-m p{
+	font-size: 18px;
+	font-weight: bold;
+	color:#fff;
+	font-family:Georgia;
+}
+
+.left-heading-m p{
+	font-size: 18px;
+	font-weight: bold;
+	color:#fff;
+	font-family:Georgia;
+}
+
+.left-heading-s p{
+	font-size: 18px;
+	font-weight: bold;
+	color:#fff;
+	font-family:Georgia;
+}
+
+.left a:hover{
+	color:#fff;
+}
+
+.left-heading-g{
+	background: #5fc9ec;
+	width: 894px;
+	float: right;
+	padding: 8px;
+	margin-bottom: 10px;
+}
+
+#right-heading{
+	background: #5fc9ec;
+	width: 600px;
+	float: right;
+	padding: 8px;
+	margin-bottom: 10px;
+}
+
+#right-heading-r{
+	background: #5fc9ec;
+	width: 500px;
+	float: right;
+	padding: 8px;
+	margin-bottom: 10px;
+}
+
+#right-heading-r p{
+	font-size: 18px;
+	font-weight: bold;
+	color:#fff;
+	font-family:Georgia;
+}
+
+#right-heading p{
+	font-size: 18px;
+	font-weight: bold;
+	color:#fff;
+	font-family:Georgia;
+}
+
+#content{
+	width: 1004px;
+	height: auto;
+}
+
+#content-ad{
+	height: auto;
+}
+
+#featured-gowns{
+	width: 1004px;
+	height: auto;
+}
+
+#fg-heading{
+	width: 400px;
+	padding: 8px;
+	margin-bottom: 5px;
+	padding-left: 60px;
+}
+
+#fg-heading span{
+	font-size: 24px;
+	font-weight: bold;
+	color:#5fc9ec;
+	font-family:Georgia;
+}
+
+#featured-scroller{
+
+}
+
+.pannels p{
+	padding: 10px;
+	font-size: 11px;
+}
+
+.pannels span{
+	font-size: 12px;
+	color: #5FC9EC;
+	font-weight: 600;
+}
+
+#holder{
+	width: 880px;
+	padding: 5px 55px;
+}
+
+#holder-item{
+	width: 400px;
+	padding: 5px 0px;
+	float: left;
+}
+
+#holder-item-font{
+	width: 880px;
+	padding: 5px 0px;
+	float: left;
+}
+
+#holder-item-access{
+	width: 350px;
+	padding: 5px 0px;
+	float: left;
+}
+
+#similar-items{
+	float: right;
+	width: 416px;
+}
+
+.f-gowns{
+	background: url(../../images/dress_frame.png) bottom left no-repeat;
+	width: 196px;
+	height: 273px;
+	float: left;
+}
+
+#footer{
+	margin:0 auto;
+	width: 1004px;
+	height: 120px;
+}
+
+#inner-footer{
+	padding: 15px;
+	text-align: center;
+}
+
+.account-options{
+	width: 200px;
+}
+
+.account-options p a{
+	font-size: 12px;	
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~REGISTER FORM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#r-form{
+	width: 894px;	
+}
+#register input{
+	width:250px; 
+	height:25px;
+	border: #dedede 2px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size:16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-left: 15px;
+	padding: 2px;
+}
+
+#register select{
+	width:250px; 
+	height:25px;
+	border: #dedede 2px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size:16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-left: 15px;
+}
+
+#register span{
+	font-size: 16px;
+	color:#5d5d5d;
+	font-family:Georgia;
+	width: 134px;
+	float: left;
+}
+
+#register #submit-r{
+	background: url(../../images/signup.png) bottom right no-repeat transparent;
+	border: none;
+	cursor: pointer;
+	width: 96px;
+	height: 34px;
+	float: right;
+}
+
+#register p{
+	margin-bottom: 2px;	
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~LogIn FORM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#login input{
+	width:250px; 
+	height:25px;
+	border: #dedede 2px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size:16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	float: right;
+	padding: 2px;
+}
+
+#login span{
+	font-size: 16px;
+	color:#5d5d5d;
+	font-family:Georgia;
+}
+
+#login #submit-l{
+	background: url(../../images/login.png) bottom right no-repeat transparent;
+	border: none;
+	cursor: pointer;
+	width: 96px;
+	height: 34px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~forgot password FORM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#forgot-password input{
+	width:250px; 
+	height:25px;
+	border: #dedede 2px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size:16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	float: right;
+	padding: 2px;
+}
+
+#forgot-password span{
+	font-size: 16px;
+	color:#5d5d5d;
+	font-family:Georgia;
+}
+
+#forgot-password #submit-f{
+	background: url(../../images/sendit.png) bottom right no-repeat transparent;
+	border: none;
+	cursor: pointer;
+	width: 96px;
+	height: 34px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~CONTACT FORM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#contact-holder{
+	width: 894px;	
+}
+#contact input{
+	width:250px; 
+	height:25px;
+	border: #dedede 2px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size:16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-left: 15px;
+	padding: 2px;
+}
+
+#contact textarea{
+	width: 400px; 
+	height: 150px;
+	max-height: 150px;
+	max-width: 400px;
+	border: #dedede 2px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size:16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-left: 15px;
+	padding: 2px;
+}
+
+#contact select{
+	width:250px; 
+	height:25px;
+	border: #dedede 2px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size:16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-left: 15px;
+}
+
+#contact span{
+	font-size: 16px;
+	color:#5d5d5d;
+	font-family:Georgia;
+	width: 134px;
+	float: left;
+}
+
+#contact #submit-c{
+	background: url(../../images/sendit.png) bottom right no-repeat transparent;
+	border: none;
+	cursor: pointer;
+	width: 96px;
+	height: 34px;
+	margin-left: 460px;
+}
+
+#contact p{
+	margin-bottom: 2px;	
+}
+
+div.growlUI { 
+	background: url(../../images/check.png) no-repeat 10px 10px; 
+}
+
+div.growlUI h1{
+	color: white; 
+	padding: 5px 5px 5px 75px;
+	font-size: 20px;
+	text-align: left;
+}
+
+div.growlUI h2 {
+	color: white; 
+	padding: 5px 5px 5px 75px;
+	font-size: 12px;
+	text-align: left;	
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~CONTACT SELLER FORM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#contact-seller-holder{
+	width: 557px;	
+}
+#contact-seller input{
+	width:250px; 
+	height:25px;
+	border: #dedede 2px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size:16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-left: 15px;
+	padding: 2px;
+}
+
+#contact-seller textarea{
+	width: 400px; 
+	height: 150px;
+	max-height: 150px;
+	max-width: 400px;
+	border: #dedede 2px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size:16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-left: 15px;
+	padding: 2px;
+}
+
+#contact-seller select{
+	width:250px; 
+	height:25px;
+	border: #dedede 2px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size:16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-left: 15px;
+}
+
+#contact-seller span{
+	font-size: 16px;
+	color:#5d5d5d;
+	font-family:Georgia;
+	width: 134px;
+	float: left;
+}
+
+#contact-seller #submit-c{
+	background: url(../../images/sendit.png) bottom right no-repeat transparent;
+	border: none;
+	cursor: pointer;
+	width: 96px;
+	height: 34px;
+	margin-left: 460px;
+}
+#contact-seller #cancel-c{
+	background: url(../../images/cancel.png) bottom right no-repeat transparent;
+	border: none;
+	cursor: pointer;
+	width: 96px;
+	height: 34px;
+}
+#contact-seller p{
+	margin-bottom: 2px;	
+}
+
+#contact-seller #submit-gl{
+	background: url(../../images/delete.png) bottom right no-repeat transparent;
+	border: none;
+	cursor: pointer;
+	width: 96px;
+	height: 34px;
+	margin-left: 347px;
+}
+
+#contact-seller #cancel-gl{
+	background: url(../../images/cancel.png) bottom right no-repeat transparent;
+	border: none;
+	cursor: pointer;
+	width: 96px;
+	height: 34px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~GOWN LISTING FORM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#r-form{
+	width: 894px;	
+}
+#gown-list input{
+	width:242px; 
+	height:25px;
+	border: #dedede 2px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size:16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-left: 15px;
+	padding: 2px;
+}
+
+#gown-list textarea{
+	width: 710px; 
+	height: 100px;
+	max-height: 100px;
+	max-width: 710px;
+	border: #dedede 2px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size:16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-left: 15px;
+	padding: 2px;
+}
+
+#gown-list select{
+	width:250px; 
+	height:25px;
+	border: #dedede 2px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size:16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-left: 15px;
+}
+
+#gown-list span{
+	font-size: 16px;
+	color:#5d5d5d;
+	font-family:Georgia;
+	width: 134px;
+	float: left;
+}
+
+#gown-list #submit-gl{
+	background: url(../../images/continue.png) bottom right no-repeat transparent;
+	border: none;
+	cursor: pointer;
+	width: 96px;
+	height: 34px;
+	float: right;
+	*margin-top: -35px;
+}
+
+#gown-list #submit-update-gowns{
+	background: url(../../images/update.png) bottom right no-repeat transparent;
+	border: none;
+	cursor: pointer;
+	width: 96px;
+	height: 34px;
+	float: right;
+}
+
+#gown-list p{
+	margin-bottom: 2px;	
+}
+
+.divider-line{
+	background-color: #eeeeee;
+	width: 866px;
+	height: 2px;
+}
+
+.form-column-left{
+	width: 425px;
+	float: left;
+}
+
+.form-column-right{
+	width: 425px;
+	float: right;
+}
+
+.glspacer{
+	width: 425px;
+	height: 25px;
+}
+
+.form-column-left-1{
+	width: 250px;
+	float: left;
+}
+
+.vspacing{
+	height: 50px;
+	width: 60px;
+	float: left;
+}
+
+.uploadimage{
+	width: 456px;
+	height: 25px;
+	background-color: #5fc9ec;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 15px 10px 15px 0px;
+	margin-left: 150px;
+}
+
+.uploadimage p{
+	font-size: 18px;
+	font-weight: bold;
+	color:#fff;
+	font-family:Georgia;
+	float: right;
+}
+
+.file{
+	width:250px; 
+	height:34px;
+	border: #dedede 2px solid;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Profile UPdate Form~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#up-form{
+	width: 655px;	
+}
+#update-profile input{
+	width:250px; 
+	height:25px;
+	border: #dedede 2px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size:16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-left: 15px;
+	padding: 2px;
+}
+
+#update-profile select{
+	width:258px; 
+	height:25px;
+	border: #dedede 2px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size:16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-left: 15px;
+}
+
+#update-profile span{
+	font-size: 16px;
+	color:#5d5d5d;
+	font-family:Georgia;
+	width: 134px;
+	float: left;
+}
+
+#update-profile #submit-up{
+	background: url(../../images/update.png) bottom right no-repeat transparent;
+	border: none;
+	cursor: pointer;
+	width: 96px;
+	height: 34px;
+	float: right;
+	margin-right: 247px;
+}
+
+#update-profile p{
+	margin-bottom: 2px;	
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Sorty By Drop-down~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#sortby input{
+	width:258px; 
+	height:25px;
+	border: #dedede 2px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size:16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-left: 15px;
+	padding: 2px;
+}
+
+#sortby select{
+	width:150px; 
+	height:25px;
+	border: #dedede 2px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size:16px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-left: 15px;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Member Sale Items Page~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.item-box{
+	width: 196px;
+	height: 325px;
+	float: left;
+	margin-bottom: 50px;
+}
+.sale-item{
+	background: url(../../images/item_frame.png) bottom right no-repeat;
+	width: 196px;
+	height: 325px;
+}
+
+.img-holder{
+	padding: 5px;
+	width: 166px;
+	height: 200px;
+	padding: 10px 10px 0 15px;
+	
+}
+
+.title-holder{
+	font-size: 16px;
+	font-weight: bold;
+	color: #5fc9ec;
+	font-family:Georgia;
+	text-align: center;
+}
+
+.price-holder{
+	font-size: 18px;
+	color: #5d5d5d;
+	font-family:Georgia;
+	text-align: center;
+}
+
+#right-heading-msi{
+	background: #5fc9ec;
+	width: 600px;
+	float: right;
+	padding: 8px;
+	margin-bottom: 10px;
+}
+
+#right-heading-msi1{
+	background: #5fc9ec;
+	width: 600px;
+	float: right;
+	padding: 8px;
+	margin-bottom: 10px;
+}
+
+#right-heading-msi-bl{
+	background: #5fc9ec;
+	width: 620px;
+	float: right;
+	padding: 8px;
+	margin-bottom: 10px;
+}
+
+#right-heading-msi-bl p{
+	font-size: 18px;
+	font-weight: bold;
+	color:#fff;
+	font-family:Georgia;
+}
+
+#right-heading-msi p{
+	font-size: 18px;
+	font-weight: bold;
+	color:#fff;
+	font-family:Georgia;
+}
+
+#right-heading-msi1 p{
+	font-size: 18px;
+	font-weight: bold;
+	color:#fff;
+	font-family:Georgia;
+}
+
+.innerframe{
+	width: 188px;
+	height: 265px;
+	padding: 4px;	
+}
+
+.condition-holder{
+	font-size: 11px;
+	text-align: center;
+	color: #5D5D5D;
+	padding-bottom: 6px;
+}
+
+.gown-style{
+	font-size: 14px;
+	text-align: center;
+	color: #5D5D5D;	
+	padding-bottom: 6px;
+}
+
+.gown-size{
+	font-size: 11px;
+	text-align: center;
+	color: #5D5D5D;
+	padding-bottom: 6px;
+}
+
+#rec-holder{
+	width: 200px;
+	padding-left: 10px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Admin Items Page~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.admin-list{
+	width: 596px;
+	float: left;
+	margin-bottom: 5px;
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	font-size: 10px;
+}
+
+.id-number{
+	float: left;
+	border-right: 1px solid #ccc;
+	padding: 5px;
+	width: 45px;
+}
+
+.userid{
+	float: left;
+	border-right: 1px solid #ccc;
+	padding: 5px;
+	width: 45px;
+}
+
+.designer{
+	float: left;
+	border-right: 1px solid #ccc;
+	padding: 5px;
+	width: 150px;
+}
+
+.stylenumber{
+	float: left;
+	border-right: 1px solid #ccc;
+	padding: 5px;
+	width: 200px;
+}
+
+.gowncondition{
+	float: left;
+	padding: 5px;
+	width: 100px;
+}
+
+.askingprice{
+	float: left;
+	padding: 5px;
+	width: 45px;
+	border-right: 1px solid #ccc;
+}
+
+.edit-listing{
+	margin: 0 0 0 90px;
+}
+
+.edit-listing a{
+	font-size: 10px;
+}
+
+.edit-listing-admin{
+	float: right;
+	padding: 6px 5px 6px 0px;
+}
+
+.edit-listing-admin a{
+	font-size: 10px;
+}
+
+.admin-title-bar{
+	font-size: 10px;	
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~GOWNS RESULTS Items Page~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.item-box-list{
+	width: 196px;
+	height: 310px;
+	float: left;
+	padding-right: 27px;
+	margin-bottom: 45px;
+}
+
+.item-box-list-f{
+	width: 196px;
+	height: 310px;
+	float: left;
+	padding-right: 15px;
+	margin-top: 10px;
+	margin-bottom: 45px;
+	padding-left: 10px;
+}
+
+.item-box-list-m{
+	width: 196px;
+	height: 310px;
+	float: left;
+	padding-right: 4px;
+	margin-bottom: 45px;
+}
+
+.item-box-recommend{
+	width: 196px;
+	height: 310px;
+	float: left;
+	margin-bottom: 25px;
+	padding-right: 4px;
+}
+.sale-item-list{
+	/*background: url(../../images/item_frame.png) bottom right no-repeat;*/
+	border: 1px solid #CCCCCC;
+	width: 196px;
+	height: 325px;
+}
+
+.sale-item-front{
+	/*background: url(../../images/item_frame.png) bottom right no-repeat;*/
+	/*border: 1px solid #CCCCCC;*/
+	width: 196px;
+	height: 325px;
+}
+
+.img-holder-list{
+	padding: 5px;
+	width: 166px;
+	height: 200px;
+	padding: 10px 10px 0 15px;
+	
+}
+
+.title-holder-list{
+	font-size: 14px;
+	font-weight: bold;
+	color: #5fc9ec;
+	font-family:Georgia;
+	text-align: center;
+}
+
+.price-holder-list{
+	font-size: 18px;
+	color: #5d5d5d;
+	font-family:Georgia;
+	text-align: center;
+}
+
+.edit-listing-list{
+	margin-left: 49px;
+	width: 96px;
+	height: 34px;
+}
+
+
+#right-heading-msi-list{
+	background: #5fc9ec;
+	width: 600px;
+	float: right;
+	padding: 8px;
+	margin-bottom: 10px;
+}
+
+#right-heading-msi-list p{
+	font-size: 18px;
+	font-weight: bold;
+	color:#fff;
+	font-family:Georgia;
+}
+
+.innerframe-list{
+	width: 188px;
+	height: 265px;
+	padding: 4px;	
+}
+
+.condition-holder-list{
+	font-size: 11px;
+	text-align: center;
+	color: #5D5D5D;
+	padding-bottom: 6px;
+}
+
+.gown-style-list{
+	font-size: 12px;
+	text-align: center;
+	color: #5D5D5D;	
+	padding-bottom: 6px;
+}
+
+.gown-size-list{
+	font-size: 11px;
+	text-align: center;
+	color: #5D5D5D;
+	padding-bottom: 6px;
+}
+
+.search-holder{
+	width: 894px;
+	height: auto;
+	padding-left: 55px;
+	float: left;
+	padding-bottom: 25px;
+}
+.verified{
+	background:url(../../images/check.png)no-repeat;
+	height: 48px;
+	margin: auto;
+	margin-top: 100px;
+	width: 250px;
+}
+
+.verified-text{
+	height: 48px;
+	margin: auto;
+	margin-top: 100px;
+	width: 250px;
+}
+
+
+.verified h2{
+	padding: 15px 0 0 60px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Home Page Tabbed Section~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* root element for tabs  */
+.tabs { 
+	list-style:none; 
+	margin:0 !important; 
+	padding:0;
+	height:30px;
+	border-bottom:1px solid #666;	
+}
+
+/* single tab */
+.tabs li { 
+	float:left;	 
+	text-indent:0;
+	padding:0;
+	margin:0 !important;
+	list-style-image:none !important; 
+}
+
+/* link inside the tab. uses a background image */
+.tabs a { 
+	background: url(../../images/blue-green.png) no-repeat -420px 0px;
+	font-size:11px;
+	display:block;
+	height: 30px;  
+	line-height:30px;
+	width: 134px;
+	text-align:center;	
+	text-decoration:none;
+	color:#fff;
+	padding:0px;
+	margin:0px;	
+	position:relative;
+	top:1px;
+	font-size: 16px;
+	font-weight: bold;;
+	font-family:Georgia;
+}
+
+.tabs a:active {
+	outline:none;		
+}
+
+/* when mouse enters the tab move the background image */
+.tabs a:hover {
+	background-position: -420px -31px;	
+	color:#fff;	
+}
+
+/* active tab uses a class name "current". it's highlight is also done by moving the background image. */
+.tabs .current, .tabs .current:hover, .tabs li.current a {
+	background-position: -420px -62px;		
+	cursor:default !important; 
+	color:#000 !important;
+}
+
+/* Different widths for tabs: use a class name: w1, w2, w3 or w2 */
+
+
+/* width 1 */
+.tabs .w1 			{ background-position: -519px 0; width:134px; }
+.tabs .w1:hover 	{ background-position: -519px -31px; }
+.tabs .w1.current { background-position: -519px -62px; }
+
+/* width 2 */
+.tabs .w2 			{ background-position: -366px -0px; width:154px; }
+.tabs .w2:hover 	{ background-position: -366px -31px; }
+.tabs .w2.current { background-position: -366px -62px; }
+
+
+/* width 3 */
+.tabs .w3 			{ background-position: -193px -0px; width:174px; }
+.tabs .w3:hover 	{ background-position: -193px -31px; }
+.tabs .w3.current { background-position: -193px -62px; }
+
+/* width 4 */
+.tabs .w4 			{ background-position: -0px -0px; width:194px; }
+.tabs .w4:hover 	{ background-position: -0px -31px; }
+.tabs .w4.current { background-position: -0px -62px; }
+
+
+/* initially all panes are hidden */ 
+.panes .pane {
+	display:none;		
+}
+
+.panes div {		
+	border:1px solid #999;
+	border-top:0;
+	background-color:#fff;
+}
+
+.panes-front div {		
+	background-color:#fff;
+}
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Form Textarea Counter~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.text_area_input {
+	width:508px;
+	min-height:36px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border-color:#AEAEAE #BBBBBB #BBBBBB;
+	border-style:solid;
+	border-width:1px;
+	border-top:2px solid #E8E8E8;
+}
+.progressbar {
+	width:0px;
+	height:16px;
+}
+#barbox {
+	float:right;
+	height:16px;
+	background-color:#FFFFFF;
+	width:100px;
+	border:solid 1px #DEDEDE;
+	margin-right:27px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	margin-bottom: 5px;
+}
+.count {
+	float:right;
+	margin-right:8px;
+	font-family:'Georgia', Times New Roman, Times, serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#666666
+}
+
+.text_area_input1 {
+	width:508px;
+	min-height:36px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border-color:#AEAEAE #BBBBBB #BBBBBB;
+	border-style:solid;
+	border-width:1px;
+	border-top:2px solid #E8E8E8;
+}
+.progressbar1 {
+	width:0px;
+	height:16px;
+}
+#barbox1 {
+	float:right;
+	height:16px;
+	background-color:#FFFFFF;
+	width:100px;
+	border:solid 1px #DEDEDE;
+	margin-right:27px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	margin-bottom: 5px;
+}
+.count1 {
+	float:right;
+	margin-right:8px;
+	font-family:'Georgia', Times New Roman, Times, serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#666666
+}
+
+.text_area_input2 {
+	width:508px;
+	min-height:36px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border-color:#AEAEAE #BBBBBB #BBBBBB;
+	border-style:solid;
+	border-width:1px;
+	border-top:2px solid #E8E8E8;
+}
+.progressbar2 {
+	width:0px;
+	height:16px;
+}
+#barbox2 {
+	float:right;
+	height:16px;
+	background-color:#FFFFFF;
+	width:100px;
+	border:solid 1px #DEDEDE;
+	margin-right:27px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	margin-bottom: 5px;
+}
+.count2 {
+	float:right;
+	margin-right:8px;
+	font-family:'Georgia', Times New Roman, Times, serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#666666
+}
+
+.text_area_input3 {
+	width:508px;
+	min-height:36px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border-color:#AEAEAE #BBBBBB #BBBBBB;
+	border-style:solid;
+	border-width:1px;
+	border-top:2px solid #E8E8E8;
+}
+.progressbar3 {
+	width:0px;
+	height:16px;
+}
+#barbox3 {
+	float:right;
+	height:16px;
+	background-color:#FFFFFF;
+	width:100px;
+	border:solid 1px #DEDEDE;
+	margin-right:27px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	margin-bottom: 5px;
+}
+.count3 {
+	float:right;
+	margin-right:8px;
+	font-family:'Georgia', Times New Roman, Times, serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#666666
+}
+
+.text_area_input4 {
+	width:508px;
+	min-height:36px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border-color:#AEAEAE #BBBBBB #BBBBBB;
+	border-style:solid;
+	border-width:1px;
+	border-top:2px solid #E8E8E8;
+}
+.progressbar4 {
+	width:0px;
+	height:16px;
+}
+#barbox4 {
+	float:right;
+	height:16px;
+	background-color:#FFFFFF;
+	width:100px;
+	border:solid 1px #DEDEDE;
+	margin-right:27px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	margin-bottom: 5px;
+}
+.count4 {
+	float:right;
+	margin-right:8px;
+	font-family:'Georgia', Times New Roman, Times, serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#666666
+}
+
+.text_area_input5 {
+	width:508px;
+	min-height:36px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border-color:#AEAEAE #BBBBBB #BBBBBB;
+	border-style:solid;
+	border-width:1px;
+	border-top:2px solid #E8E8E8;
+}
+.progressbar5 {
+	width:0px;
+	height:16px;
+}
+#barbox5 {
+	float:right;
+	height:16px;
+	background-color:#FFFFFF;
+	width:100px;
+	border:solid 1px #DEDEDE;
+	margin-right:27px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	margin-bottom: 5px;
+}
+.count5 {
+	float:right;
+	margin-right:8px;
+	font-family:'Georgia', Times New Roman, Times, serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#666666
+}
+
+.text_area_input6 {
+	width:508px;
+	min-height:36px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border-color:#AEAEAE #BBBBBB #BBBBBB;
+	border-style:solid;
+	border-width:1px;
+	border-top:2px solid #E8E8E8;
+}
+.progressbar6 {
+	width:0px;
+	height:16px;
+}
+#barbox6 {
+	float:right;
+	height:16px;
+	background-color:#FFFFFF;
+	width:100px;
+	border:solid 1px #DEDEDE;
+	margin-right:27px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	margin-bottom: 5px;
+}
+.count6 {
+	float:right;
+	margin-right:8px;
+	font-family:'Georgia', Times New Roman, Times, serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#666666
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`Pagination Styles~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.paginate {
+font-family:Arial, Helvetica, sans-serif;
+	padding: 3px;
+	margin: 3px;
+}
+
+.paginate a {
+	padding:2px 5px 2px 5px;
+	margin:2px;
+	border:1px solid #999;
+	text-decoration:none;
+	color: #666;
+}
+.paginate a:hover, .paginate a:active {
+	border: 1px solid #999;
+	color: #000;
+}
+.paginate span.current {
+    margin: 2px;
+	padding: 2px 5px 2px 5px;
+	border: 1px solid #999;
+	
+	font-weight: bold;
+	background-color: #999;
+	color: #FFF;
+}
+.paginate span.disabled {
+	padding:2px 5px 2px 5px;
+	margin:2px;
+	border:1px solid #eee;
+	color:#DDD;
+}	
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Dispplay Page --- GOWN-ITEM.PHP~~~~~~~~~~~~*/
+
+#main-frame{
+	float: right;
+	width: 508px;
+	height: 750px;
+}
+
+#main-frame-hiw{
+	float: right;
+	width: 605px;
+}
+
+#thumb-side-bar{
+	width: 60px;
+	height: 610px;
+}
+
+.dress-content p{
+	font-size: 11px;
+}
+
+.dress-content span{
+	font-size: 12px;
+	color: #5FC9EC;
+	font-weight: 600;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Expanding Divs~~~~~~~~~~~~*/
+
+/*.ui-expandable {
+	border: 1px solid #cccccc;
+	border-width: 1px 0;
+}*/
+.ui-expandable .ui-widget-header {
+	overflow: hidden;
+	width: 875px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	background: url(../../images/searchbg.jpg) top left repeat-x;
+	margin-top: 5px;
+	height: 28px;
+}
+.ui-expandable-icon,
+.ui-expandable .ui-expandable-title {
+	float: left;
+	font-size: 12px;
+	padding 5px;
+}
+
+.ui-expandable .ui-expandable-title p{
+	font-size: 13px;
+	color:#5d5d5d;
+	font-family:Georgia;
+}
+
+.ui-expandable .ui-widget-header .ui-icon {
+	height:16px;
+	width:16px;
+	margin-right: 2px;
+}
+.ui-expandable .ui-widget-header .ui-icon.icon-closed {
+	background-image: url(../../images/arrow-down.gif);
+}
+.ui-expandable .ui-widget-header .ui-icon.icon-open {
+	background-image: url(../../images/arrow-up.gif);
+}
+.ui-expandable-extraIcon {
+	float: right;
+}
+.ui-expandable .ui-widget-content {
+	border-top-width: 0; /* fixes double border when using jQuery UI theme */
+}
+/* some elements create a gap between content and title (eg. UL) */
+/*.ui-expandable .ui-widget-content {
+	margin: 0;
+	padding: 0;
+}*/
+/* many such corrections could be made I suppose: */
+.ui-expandable .ui-widget-content ul,
+.ui-expandable .ui-widget-content ol,
+.ui-expandable .ui-widget-content dl {
+	padding-left: 15px;
+}
+
+.checkboxes{
+	width: 210px;
+	float: left;
+	font-size: 11px;
+}
+
+.checkboxes1{
+	width: 120px;
+	float: left;
+	font-size: 11px;
+}
+
+.checkboxes2{
+	width: 25px;
+	float: left;
+	font-size: 11px;
+}
+
+.h-spacer{
+	width: 855px;
+	height: 15px;
+	float:left;
+}
+
+.advanced-search{
+	width: 480px;
+	margin-left: 20px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+
+.advanced-search-1{
+	width: 480px;
+	margin-left: 20px;
+	padding-bottom: 10px;
+}
+
+.sizechart td {
+	border-bottom:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	padding:5px 10px;
+	border-left:1px solid #CCCCCC;
+	border-top:1px solid #CCCCCC;
+}

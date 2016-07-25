@@ -1,0 +1,3 @@
+<p><span>On PreOwnedGowns.com we make your dreams come true. Our website features remarkable designer gowns at economical prices.</span></p><br />
+
+<p><span>Find the dress you fantasize about by searching through the most up to date designers and styles. Our elaborate search engine can help you find your dress by designer, style, price, or size. Your wonderful day is just a dress away.</span></p><br />

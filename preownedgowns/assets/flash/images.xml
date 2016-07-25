@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+    <album id="ssp" lgPath="/assets/flash/images/" tnPath="" title="Album One" description="Description of Album One" tn="">
+        <img src="1.jpg" title="Find Your Dream Wedding Dress Today!" caption="" link="" target="_self" pause="" vidpreview="" />
+		<!--<img src="2.jpg" title="Riptide Force Services" caption="" link="/services" target="_self" pause="" vidpreview="" />
+		<img src="3.jpg" title="Riptide Force Services" caption="" link="/services" target="_self" pause="" vidpreview="" />
+		<img src="5.jpg" title="Riptide Certified Consulting" caption="" link="/services/aaa" target="_self" pause="" vidpreview="" />
+		<img src="6.jpg" title="Riptide Reflection" caption="" link="/products/reflection" target="_self" pause="" vidpreview="" />
+		<img src="7.jpg" title="Certified Salesforce Constulting Services" caption="" link="/services" target="_self" pause="" vidpreview="" />-->
+    </album>
+</gallery>
